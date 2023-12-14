@@ -1,0 +1,95 @@
+{
+  "name": "continue-comment",
+  "displayName": "continue-comment",
+  "description": "add a feature for continuing comment",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "comment",
+    "toggle",
+    "continue"
+  ],
+  "icon": "docs/assets/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shumpei-Tanaka/Continue-Comment"
+  },
+  "publisher": "s6tanaka",
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "configuration": {
+        "type": "object",
+        "title": "continue-comment configuration",
+        "properties": {
+            "continue-comment.alwaysOn": {
+                "type": "boolean",
+                "default": false,
+                "description": "Set to always ON."
+            },
+            "continue-comment.viewModeAsCursor": {
+                "type": "boolean",
+                "default": true,
+                "description": "view mode as cursor."
+            },
+            "continue-comment.secondaryCursorStyle": {
+                "type": "string",
+                "default": "UnderLine",
+                "description": "Sets the continue-comment cursor style.",
+                "enum": [
+                    "Line",
+                    "LineThin",
+                    "Block",
+                    "BlockOutline",
+                    "UnderLine",
+                    "UnderLineThin"
+                ]
+            }
+        }
+    },
+    "commands": [
+        {
+          "command": "continue-comment.toggle",
+          "title": "continue-comment.toggle"
+        }
+      ],
+      "keybindings": [
+          {
+              "command": "continue-comment.toggle",
+              "key": "ctrl+shift+/",
+              "mac": "cmd+shift+/",
+              "when": "editorFocus"
+          }
+      ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.54.0",
+    "typescript": "^5.3.2",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.8"
+  }
+}
