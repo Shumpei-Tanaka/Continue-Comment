@@ -12,6 +12,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+  <a href="https://github.com/Shumpei-Tanaka/Continue-Comment">
+    <img src="/docs/assets/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
   <h3 align="center">Continue-Comment</h3>
 
   <p align="center">

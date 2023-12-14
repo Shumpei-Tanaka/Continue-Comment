@@ -14,6 +14,11 @@
     "toggle",
     "continue"
   ],
+  "icon": "docs/assets/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shumpei-Tanaka/Continue-Comment"
+  },
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
