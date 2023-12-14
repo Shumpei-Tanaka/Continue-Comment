@@ -15,11 +15,11 @@
   <h3 align="center">Continue-Comment</h3>
 
   <p align="center">
-    add a feature for continuing comment with new line.
+    改行してもコメントを続ける機能を追加
     <br />
-    <a href="https://github.com/Shumpei-Tanaka/Continue-Comment/issues">Report Bug</a>
+    <a href="https://github.com/Shumpei-Tanaka/Continue-Comment/issues">バグを報告</a>
     ·
-    <a href="https://github.com/Shumpei-Tanaka/Continue-Comment/issues">Request Feature</a>
+    <a href="https://github.com/Shumpei-Tanaka/Continue-Comment/issues">新機能をリクエスト</a>
   </p>
   <p align="center">
     <a href="/README.md">English</a> •
@@ -33,7 +33,7 @@
 - [Extension Settings](#extension-settings)
 - [Known Issues](#known-issues)
 - [Contributing](#contributing)
-  - [How to contributing](#how-to-contributing)
+  - [貢献のやり方](#貢献のやり方)
 - [Release Notes](#release-notes)
   - [1.0.0](#100)
 - [License](#license)
@@ -46,25 +46,25 @@
 
 ![overview](/docs/assets/overview.gif)
 
-- `Ctrl + Shift + /`: toggle Continue-Comment mode
-- insert comment header when newline automatically
-- it can be always on with setting.
+- `Ctrl + Shift + /`: コメント継続モードをトグル
+- コメントヘッダを自動的に挿入する
+- 設定から"常にON"にすることもできる
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Requirements
 
-no requirements.
+前提条件なし
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Extension Settings
 
-|name|detail|
+|名前|詳細|
 |-|-|
-|`Continue-Comment.alwaysOn`| ignore toggle.always on|
-|`Continue-Comment.viewModeAsCursor`|show now mode as cursor style|
-|`Continue-Comment.secondaryCursorStyle`|a cursor style . It use in mode on|
+|`Continue-Comment.alwaysOn`| トグルを無視して常にONにする|
+|`Continue-Comment.viewModeAsCursor`|カーソルで現在のモードを表示する|
+|`Continue-Comment.secondaryCursorStyle`|コメント継続モードのときのカーソルのスタイル|
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,17 +75,20 @@ no requirements.
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Any contributions you make are **greatly appreciated**.
+貢献してくれたら嬉しい
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks!
+より良くする提案があれば, リポジトリをフォーク・プルリクエストを作ってくれると助かる. 
 
-### How to contributing
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin AmazingFeature`)
-5. Open a Pull Request
+"enhancement"タグをつけてIssueに投稿することもできる.
+
+スターもつけていってくれるとたいへん助かる
+
+### 貢献のやり方
+1. フォークする
+2. 新機能のブランチを作る (`git checkout -b AmazingFeature`)
+3. コミットする (`git commit -m 'Add some AmazingFeature'`)
+4. プッシュする (`git push origin AmazingFeature`)
+5. プルリクエストを作る
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,7 +97,7 @@ Don't forget to give the project a star! Thanks!
 
 ### 1.0.0
 
-Initial release of Continue-Comment.
+Continue-Comme  最初のリリース.
 
 ---
 
@@ -118,9 +121,7 @@ The source code is licensed MIT. See [LICENSE.md](LICENSE.md).
 
 ## Say Thank You
 
-If my works feels you helpful, I would be happy to have your support for me. :)
-
-links are below.
+役立ったらコーヒーを買ってもらえると助かる :)
 
 - [https://www.paypal.me/s6tanaka/][Paypal-url]
 - [https://www.buymeacoffee.com/s6tanaka][BuyMeACoffee-url]
