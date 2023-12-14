@@ -137,7 +137,7 @@ links are below.
 [release-shield]:https://img.shields.io/github/v/release/Shumpei-Tanaka/continue-comment?style=flat-squere&sort=semver
 [release-url]: https://github.com/Shumpei-Tanaka/Continue-Comment/releases/latest
 [license-shield]:https://img.shields.io/github/license/Shumpei-Tanaka/continue-comment?flat-squere
-[license-url]: /license.md
+[license-url]: /LICENSE.md
 
 [issues-shield]: https://img.shields.io/github/issues/Shumpei-Tanaka/Continue-Comment.svg?style=flat-squere
 [issues-url]: https://github.com/Shumpei-Tanaka/Continue-Comment/issues
