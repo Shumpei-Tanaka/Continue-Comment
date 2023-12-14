@@ -2,7 +2,7 @@
   "name": "continue-comment",
   "displayName": "continue-comment",
   "description": "add a feature for continuing comment",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.85.0"
   },
